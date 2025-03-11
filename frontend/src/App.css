@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:beige;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color:cadetblue;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.energy-form input,
+.energy-form select,
+.energy-form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.energy-form button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.energy-form button:hover {
+  background-color: #218838;
+}
+
+.selected-appliances ul {
+  list-style: none;
+  padding: 0;
+}
+
+.alert-high {
+  color: red;
+  font-weight: bold;
+}
+
+.alert-low {
+  color: green;
+}
